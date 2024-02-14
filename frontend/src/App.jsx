@@ -5,6 +5,7 @@ import Services from "./pages/Services/Services";
 import Projects from "./pages/Projects/Projects";
 import Contacts from "./pages/Contacts/Contacts";
 import BarotechNavbar from "./components/Navbar/BarotechNavbar";
+import WhatsAppChat from "./components/Whatsapp/Whatsapp";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         </Routes>
       </div>
       <Contacts />
+      <WhatsAppChat />
     </div>
   );
 };
