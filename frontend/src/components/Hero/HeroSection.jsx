@@ -4,11 +4,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const HeroSection = () => {
   return (
-    <div className="bg-gray-900 text-white py-20">
+    <div className="bg-gray-900 text-white py-1">
       <Carousel autoPlay showThumbs={false} infiniteLoop>
-        <div className="relative h-80">
+        <div className="relative h-96">
           <img
-            src="image1.jpg"
+            src="service3.jpg"
             alt="Image 1"
             className="w-full h-full object-cover"
           />
@@ -28,9 +28,10 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <div className="relative h-80">
+
+        <div className="relative h-96">
           <img
-            src="image2.jpg"
+            src="bg.jpeg"
             alt="Image 2"
             className="w-full h-full object-cover"
           />
@@ -50,9 +51,10 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <div className="relative h-80">
+
+        <div className="relative h-96">
           <img
-            src="image3.jpg"
+            src="group.jpeg"
             alt="Image 3"
             className="w-full h-full object-cover"
           />

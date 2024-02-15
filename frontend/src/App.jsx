@@ -20,6 +20,7 @@ const App = () => {
           <Route path="/contact" element={<Contacts />} />
         </Routes>
       </div>
+      
       <Contacts />
       <WhatsAppChat />
     </div>
